@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN"
+ "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+  <!-- 데이터베이스 접속 설정定 -->
+  <transactionManager type="JDBC">
+    <dataSource type="JNDI">
+      <property name="DataSource" value="java:comp/env/jdbc/pentominoDB" />
+    </dataSource>
+  </transactionManager>
+
+  <!-- SqlMap 파일을 참조한다 -->
+  <sqlMap resource="sqlmap/PRODUCT_ITEM_SqlMap.xml" />
+
+</sqlMapConfig>

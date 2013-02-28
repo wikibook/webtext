@@ -1,0 +1,6 @@
+<Context path="/webtext/PizzaPentomino" reloadable="true" docBase="${catalina.home}/webapps/webtext/PizzaPentomino" >
+  <Resource name="jdbc/pentominoDB" auth="Container" type="javax.sql.DataSource"
+            maxActive="100" maxIdle="30" maxWait="10000"
+            username="sa" password="" driverClassName="org.h2.Driver"
+            url="jdbc:h2:~/pentomino"/>
+</Context>

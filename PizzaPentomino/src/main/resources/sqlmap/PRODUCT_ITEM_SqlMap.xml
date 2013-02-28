@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+  "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+
+<sqlMap namespace="PRODUCT_ITEM" >
+  <resultMap id="productItemResult" class="kr.co.wikibook.webtext.pentomino.model.ProductItem" >
+    <result column="ITEM_ID" property="itemId" jdbcType="VARCHAR" />
+    <result column="ITEM_NAME" property="itemName" jdbcType="VARCHAR" />
+    <result column="PRICE" property="price" jdbcType="INTEGER" />
+  </resultMap>
+
+  <select id="selectAll" resultMap="productItemResult"
+    resultClass="kr.co.wikibook.webtext.pentomino.model.ProductItem">
+    select ITEM_ID, ITEM_NAME, PRICE from PRODUCT_ITEM
+  </select>
+</sqlMap>

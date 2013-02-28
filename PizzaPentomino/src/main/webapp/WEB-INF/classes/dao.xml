@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE daoConfig PUBLIC "-//iBATIS.com//DTD DAO Configuration 2.0//EN"
+    "http://www.ibatis.com/dtd/dao-2.dtd">
+
+<daoConfig>
+  <context>
+    <transactionManager type="SQLMAP">
+      <property name="SqlMapConfigResource" value="sqlMapConfig.xml" />
+    </transactionManager>
+
+    <dao interface="kr.co.wikibook.webtext.pentomino.dao.ProductItemDao"
+      implementation="kr.co.wikibook.webtext.pentomino.dao.impl.ProductItemDaoImpl" />
+  </context>
+
+</daoConfig>
