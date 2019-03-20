@@ -1,49 +1,45 @@
 ===============================================================================
-                        ÇÁ·Î°¡ µÇ±â À§ÇÑ À¥ ±â¼ú ÀÔ¹®
-                                  - ¿Ö ´ç½ÅÀº À¥ ½Ã½ºÅÛÀ» °³¹ßÇÏÁö ¸øÇÏ´Â°¡?
+                        í”„ë¡œê°€ ë˜ê¸° ìœ„í•œ ì›¹ ê¸°ìˆ  ìž…ë¬¸
+                                  - ì™œ ë‹¹ì‹ ì€ ì›¹ ì‹œìŠ¤í…œì„ ê°œë°œí•˜ì§€ ëª»í•˜ëŠ”ê°€?
 
-                               ¿¹Á¦ ÇÁ·Î±×·¥
+                               ì˜ˆì œ í”„ë¡œê·¸ëž¨
 
-                                                                    2010.4.9ÀÏÆÇ
+                                                                    2010.4.9ì¼íŒ
 
  Copyright (c) 2010 Yusuke KOMORI.
 ===============================================================================
 
-¡áÀÌ ¾ÐÃà ÆÄÀÏ¿¡ ´ëÇØ
-  ÀÌ ¾ÐÃà ÆÄÀÏÀº ¡¶ÇÁ·Î°¡ µÇ±â À§ÇÑ À¥ ±â¼ú ÀÔ¹®¡·¿¡¼­ ¼Ò°³ÇÑ »ùÇÃ ¼Ò½º ÄÚµå¸¦ ¹èÆ÷ÇÑ
-  °ÍÀÔ´Ï´Ù.
+â– ì´ ì••ì¶• íŒŒì¼ì— ëŒ€í•´
+  ì´ ì••ì¶• íŒŒì¼ì€ ã€Ší”„ë¡œê°€ ë˜ê¸° ìœ„í•œ ì›¹ ê¸°ìˆ  ìž…ë¬¸ã€‹ì—ì„œ ì†Œê°œí•œ ìƒ˜í”Œ ì†ŒìŠ¤ ì½”ë“œë¥¼ ë°°í¬í•œ
+  ê²ƒìž…ë‹ˆë‹¤.
 
 
 
-¡áÀÌ ¾ÐÃà ÆÄÀÏÀÇ ±¸¼º
-  ÀÌ ¾ÐÃà ÆÄÀÏÀº ´ÙÀ½°ú °°Àº Æú´õ·Î ±¸¼ºµÇ¾î ÀÖ½À´Ï´Ù. 
+â– ì´ ì••ì¶• íŒŒì¼ì˜ êµ¬ì„±
+  ì´ ì••ì¶• íŒŒì¼ì€ ë‹¤ìŒê³¼ ê°™ì€ í´ë”ë¡œ êµ¬ì„±ë˜ì–´ ìžˆìŠµë‹ˆë‹¤. 
   
-  ¦§ mock              Lesson4 ÇÇÀÚ ÆæÅä¹Ì³ë È­¸é ¸ðÇü
-  ¦§ pentomino_1       Lesson4 ÇÇÀÚ ÆæÅä¹Ì³ë(PHP) ÀÎÁõ ±â´É¸¸
-  ¦¢   (http://www.mobills.co.kr/webtext/pentomino_1/login.html¿¡¼­ È®ÀÎ °¡´É)
-  ¦¢
-  ¦§ pentomino_2       Lesson4 ÇÇÀÚ ÆæÅä¹Ì³ë(PHP) Cookie»ç¿ëÆÇ
-  ¦¢   (http://www.mobills.co.kr/webtext/pentomino_2/login.html ¿¡¼­ È®ÀÎ °¡´É)
-  ¦¢
-  ¦§ pentomino_3       Lesson4 ÇÇÀÚ ÆæÅä¹Ì³ë(PHP) ¿Ï¼ºÆÇ
-  ¦¢   (http://www.mobills.co.kr/webtext/pentomino_3/login.html ¿¡¼­ È®ÀÎ °¡´É)
-  ¦¢
-  ¦§ PizzaPentomino    Lesson6 ÇÇÀÚ ÆæÅä¹Ì³ë(Java) StrutsÆÇ
-  ¦¢   (http://www.mobills.co.kr/webtext/PizzaPentomino/  ¿¡¼­ È®ÀÎ °¡´É)
-  ¦¢
-  ¦¦ PizzaPentominoSrv Lesson6 ÇÇÀÚ ÆæÅä¹Ì³ë(Java) ¼­ºí¸´ÆÇ
+  â”œ mock              Lesson4 í”¼ìž íŽœí† ë¯¸ë…¸ í™”ë©´ ëª¨í˜•
+  â”œ pentomino_1       Lesson4 í”¼ìž íŽœí† ë¯¸ë…¸(PHP) ì¸ì¦ ê¸°ëŠ¥ë§Œ
+  â”‚
+  â”œ pentomino_2       Lesson4 í”¼ìž íŽœí† ë¯¸ë…¸(PHP) Cookieì‚¬ìš©íŒ
+  â”‚
+  â”œ pentomino_3       Lesson4 í”¼ìž íŽœí† ë¯¸ë…¸(PHP) ì™„ì„±íŒ
+  â”‚
+  â”œ PizzaPentomino    Lesson6 í”¼ìž íŽœí† ë¯¸ë…¸(Java) StrutsíŒ
+  â”‚
+  â”” PizzaPentominoSrv Lesson6 í”¼ìž íŽœí† ë¯¸ë…¸(Java) ì„œë¸”ë¦¿íŒ
   
-  ¡Ø JavaÆÇÀº Eclipse¿¡¼­ °¡Á®¿À±â°¡ °¡´ÉÇÑ Çü½ÄÀ¸·Î µÇ¾î ÀÖ½À´Ï´Ù
+  â€» JavaíŒì€ Eclipseì—ì„œ ê°€ì ¸ì˜¤ê¸°ê°€ ê°€ëŠ¥í•œ í˜•ì‹ìœ¼ë¡œ ë˜ì–´ ìžˆìŠµë‹ˆë‹¤
   
-¡á¸éÃ¥ »çÇ×
-  ±âÁÖ¾²È¿·Ð»ç¿Í ÀúÀÚ´Â ÀÌ ¾ÐÃà ÆÄÀÏ¿¡ µé¾î ÀÖ´Â ÇÁ·Î±×·¥À» »ç¿ëÇÑ °á°ú ¹ß»ýÇÑ
-  ¾î¶² ¼ÕÇØ¿¡ ´ëÇØ¼­µµ ÀÏÃ¼ Ã¥ÀÓ ¹× ¹è»ó Ã¥ÀÓÀ» ÁöÁö ¾Ê½À´Ï´Ù. ¾îµð±îÁö³ª °³ÀÎ
-  Ã¥ÀÓ ÇÏ¿¡ »ç¿ëÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.
+â– ë©´ì±… ì‚¬í•­
+  ê¸°ì£¼ì“°íš¨ë¡ ì‚¬ì™€ ì €ìžëŠ” ì´ ì••ì¶• íŒŒì¼ì— ë“¤ì–´ ìžˆëŠ” í”„ë¡œê·¸ëž¨ì„ ì‚¬ìš©í•œ ê²°ê³¼ ë°œìƒí•œ
+  ì–´ë–¤ ì†í•´ì— ëŒ€í•´ì„œë„ ì¼ì²´ ì±…ìž„ ë° ë°°ìƒ ì±…ìž„ì„ ì§€ì§€ ì•ŠìŠµë‹ˆë‹¤. ì–´ë””ê¹Œì§€ë‚˜ ê°œì¸
+  ì±…ìž„ í•˜ì— ì‚¬ìš©í•˜ì‹œê¸° ë°”ëžë‹ˆë‹¤.
 
 
-¡á°³Á¤ ÀÌ·Â
-  2010.4.9 ÃÊÆÇ
+â– ê°œì • ì´ë ¥
+  2010.4.9 ì´ˆíŒ
 
 
 
-                                                                            ÀÌ»ó
+                                                                            ì´ìƒ
