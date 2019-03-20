@@ -20,13 +20,9 @@
   
   ├ mock              Lesson4 피자 펜토미노 화면 모형
   ├ pentomino_1       Lesson4 피자 펜토미노(PHP) 인증 기능만
-  │
   ├ pentomino_2       Lesson4 피자 펜토미노(PHP) Cookie사용판
-  │
   ├ pentomino_3       Lesson4 피자 펜토미노(PHP) 완성판
-  │
   ├ PizzaPentomino    Lesson6 피자 펜토미노(Java) Struts판
-  │
   └ PizzaPentominoSrv Lesson6 피자 펜토미노(Java) 서블릿판
   
   ※ Java판은 Eclipse에서 가져오기가 가능한 형식으로 되어 있습니다
